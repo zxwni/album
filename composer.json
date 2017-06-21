@@ -1,0 +1,28 @@
+{
+    "name": "zxw/album",
+    "description": "personal album",
+    "authors": [
+        {
+            "name": "zxwni",
+            "email": "649835646@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload":{
+        "files":[
+            "core/function.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    }
+}
